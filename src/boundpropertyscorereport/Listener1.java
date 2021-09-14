@@ -16,7 +16,7 @@ public class Listener1 implements PropertyChangeListener{
 
     @Override
     public void propertyChange(PropertyChangeEvent evt) {
-        System.out.println("Live Result:" + evt.getNewValue()); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Live Result : " + evt.getNewValue()); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
